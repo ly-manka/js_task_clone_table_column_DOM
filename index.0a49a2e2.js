@@ -1,0 +1,2 @@
+var e=document.querySelector("table"),l=e.tHead.rows[0],o=e.tFoot.rows[0],r=e.tBodies[0].rows,t=l.cells[1].cloneNode(!0),a=o.cells[1].cloneNode(!0);l.lastElementChild.before(t),o.lastElementChild.before(a);var n=!0,d=!1,c=void 0;try{for(var s,i=r[Symbol.iterator]();!(n=(s=i.next()).done);n=!0){var f=s.value,u=f.cells[1].cloneNode(!0);f.lastElementChild.before(u)}}catch(e){d=!0,c=e}finally{try{n||null==i.return||i.return()}finally{if(d)throw c}}
+//# sourceMappingURL=index.0a49a2e2.js.map
